@@ -1,0 +1,51 @@
+body {
+    background-color: lightgray;
+}
+
+.grid-layaout {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    width: 80%;
+    margin: 0 auto;
+    background-color: lightgreen;
+    padding: 20px;
+
+}
+
+.caja {
+    /* height: 120px;
+    width: 120px;
+    margin: 12px; */
+    border: 1px solid black;
+    background-color: lightblue;
+
+
+    text-align: center;
+    line-height: 120px;
+}
+
+.c1 {
+    grid-column: 1/3;
+    background-color: lightcoral;
+}
+
+.c4 {
+    grid-column: 2/4;
+    background-color: lightcoral;
+}
+
+.c5 {
+    grid-column: 1/3;
+    background-color: lightcoral;
+}
+
+.c8 {
+    grid-column: 2/4;
+    background-color: lightcoral;
+}
+
+.c9 {
+    grid-column: 1/3;
+    background-color: lightcoral;
+}
